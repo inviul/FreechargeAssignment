@@ -25,13 +25,13 @@ The code base of above project is divided into two folders as per gradle divisio
 ### src/main
 It contains package within **java folder**: com.project.freecharge.utilities. There are two classes available within this package: **Configuration.java** and **RestUtility.java**. There is a resource folder within src/main where config.properties are kept.
 
-##### Configuration.java
+### Configuration.java
 This class is used to read value of all the properties written inside config.properties. It uses encapsulation and gives getters to read the properties values. These proeprties values are used throughout the project wherever required.
 
-##### RESTUtility.java
+### RESTUtility.java
 This class contains all the static methods which is used to perform REST calls, like GET, POST, PUT, PATCH, and DELTE. Apart from these operations, there are methods to perform other operations like getting response, status code, setting and resetting BASE URL, etc.
 
-##### resources/config.properties
+### resources/config.properties
 This file contains all the properties like access token, media types, etc which are used at project levels. This file is accessed by Configuration.java class.
 
 ### src/test
@@ -44,31 +44,31 @@ Further, resources folder contains four sub-folders which are-
 
 Let's understand each classes and folders.
 
-##### BaseTest.java
+### BaseTest.java
 This class contains all the common methods which are used by all the test cases. It contains methods to set up browser for front end testing, report generation and closing, tear down methods, etc.
 
-##### APITestBed.java
+### APITestBed.java
 This class contains @BeforeSuite & @AfterSuite annotations, which mainly sets & resets the BASE URI. It extents BaseTest.java class to re-use the test level common methods.
 
-##### MyListeners.java
+### MyListeners.java
 This class extends ITestListener interface which is used for auto logging and reporting the testing events like failure, success, test startups, test end process, etc.
 
-##### GitHubTeamApiTesting.java
+### GitHubTeamApiTesting.java
 This is TestNg class which contains all the test for GitHubTeams API testing. The tests are written within @Test annotation. Those tests are grouped by **Positive Test** and **Negative Test** and their priority of execution are set. 
 
-##### BewkoofTest.java
+### BewkoofTest.java
 This is another TestNg class which contains test for front end testing of Bewkoof.com. The development of this test is currently in progress.
 
-##### resources/Container folder
+### resources/Container folder
 This folder contains all the third party plugins like chromedriver.exe.
 
-##### resources/JsonBody folder
+### resources/JsonBody folder
 This folder contains Json files which are mainly gathered by using GET call of REST API. It contains only those json body whose values are set as parameter for another methods at runtime like getting project id.
 
-##### resources/PostJsons folder
+### resources/PostJsons folder
 This folder contains all the JSON files which are used to perform POST call of REST API, like editing a team, creating a new team, etc.
 
-##### resources/Suite folder
+### resources/Suite folder
 This folder contains two testng.xml files. First, **apitsuite.xml** contains  test class for GitHub Teams API testing. Second, **frontendsuite.xml** contains test class for front end testing. The configuration of these two xmls are done inside build.gradle file as test task which uses useTestNg() method.
 
 ### ExecutionLog.log
