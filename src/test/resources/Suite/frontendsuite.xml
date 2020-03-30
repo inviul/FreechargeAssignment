@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Freecharge Test Suite">
+    <parameter name="browser" value="Chrome"></parameter>
+    <parameter name="url" value="https://www.bewakoof.com/"></parameter>
+    <!-- Test -->
+    <test name="Freecharge Test" >
+        <classes>
+            <class name="com.project.freecharge.test.BewkoofTest"></class>
+        </classes>
+    </test>
+    <!-- End Test -->
+</suite> <!-- Suite -->
