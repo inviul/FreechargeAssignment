@@ -21,13 +21,13 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.141.59'
 }
 
-task runApiTest(){
-    test{
+task runApiTest(type: Test){
+    
         useTestNG(){
             useDefaultListeners=true
             suites "src/test/resources/Suite/apitsuite.xml"
         }
-    }
+    
 }
 
 task runFrontEndTest(){
