@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+  <suite name="Freecharge Test Suite" duration-ms="15873" started-at="2020-04-02T18:57:08 IST" finished-at="2020-04-02T18:57:23 IST">
+    <groups>
+    </groups>
+    <test name="Freecharge Test" duration-ms="15873" started-at="2020-04-02T18:57:08 IST" finished-at="2020-04-02T18:57:23 IST">
+      <class name="com.project.freecharge.test.BewkoofTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.project.freecharge.test.BewkoofTest@b106737]" name="setUp" is-config="true" duration-ms="10725" started-at="2020-04-02T18:57:08 IST" finished-at="2020-04-02T18:57:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bewakoof.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.project.freecharge.test.BewkoofTest@b106737]" name="test" duration-ms="3" started-at="2020-04-02T18:57:18 IST" finished-at="2020-04-02T18:57:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.freecharge.test.BewkoofTest@b106737]" name="tearDown" is-config="true" duration-ms="5067" started-at="2020-04-02T18:57:18 IST" finished-at="2020-04-02T18:57:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.project.freecharge.test.BewkoofTest -->
+    </test> <!-- Freecharge Test -->
+  </suite> <!-- Freecharge Test Suite -->
 </testng-results>

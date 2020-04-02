@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.freecharge.test.BewkoofTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-02T13:27:18" hostname="inviul" time="0.003">
+  <properties/>
+  <testcase name="test" classname="com.project.freecharge.test.BewkoofTest" time="0.003"/>
+  <system-out><![CDATA[[INFO] [MyListeners] [onTestStart] *** Running test method test... 
+ [INFO] [MyListeners] [onTestSuccess] *** Executed test test successfully... 
+ ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

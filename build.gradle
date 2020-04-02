@@ -22,7 +22,6 @@ dependencies {
 }
 
 task runApiTest(type: Test){
-    
         useTestNG(){
             useDefaultListeners=true
             suites "src/test/resources/Suite/apitsuite.xml"
@@ -30,11 +29,9 @@ task runApiTest(type: Test){
     
 }
 
-task runFrontEndTest(){
-    test{
+task runFrontEndTest(type: Test){
         useTestNG(){
             useDefaultListeners=true
             suites "src/test/resources/Suite/frontendsuite.xml"
         }
-    }
 }

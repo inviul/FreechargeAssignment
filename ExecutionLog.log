@@ -853,4 +853,15 @@
  [INFO] [BaseTest] [removeTeamProject] JSON Body: {"message":"Invalid request.\n\n\"permission\" is not a permitted key.","documentation_url":"https://developer.github.com/v3/teams/#remove-team-project"} 
  [ERROR] [MyListeners] [onTestFailure] *** Test execution removeTeamProject failed... 
  [INFO] [MyListeners] [onFinish] *** Test Suite Freecharge Test ending *** 
+ [INFO] [MyListeners] [onStart] *** Test Suite Freecharge Test started *** 
+ [INFO] [BaseTest] [setUpBrowser] 
+
+ Test Case Name	:BewkoofTest
+ Start Time		:18:57:08
+---------------------------------------------------------------------------- 
+ [INFO] [BaseTest] [setUpBrowser] Browser is- Chrome 
+ [INFO] [MyListeners] [onTestStart] *** Running test method test... 
+ [INFO] [MyListeners] [onTestSuccess] *** Executed test test successfully... 
+ [INFO] [BaseTest] [terminateTest] Test Closed 
+ [INFO] [MyListeners] [onFinish] *** Test Suite Freecharge Test ending *** 
  
